@@ -17,7 +17,7 @@
 # N: Populationsgroeße
 # R: Reproduktionsrate
 # K: carrying capacity
-# I: Inzucht Faktor 
+# I: Inzucht-Faktor 
 # t: Zeitschritte
 # m: Mortalitaet
 
