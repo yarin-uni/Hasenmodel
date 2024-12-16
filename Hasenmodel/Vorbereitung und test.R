@@ -29,6 +29,7 @@ ricker <- function(n, r, k,I) {
   n_new <- n * exp(r * I*(1 - n / k)) # Einbau des Inzucht-Faktors
   return(n_new)
 }
+#eine andere Funktion um den Populationswachstum zu simulieren
 rickerhase <- function(n, r, m, I) {
   n_new <- n + n * (r * I) - (n*m)
   return(n_new)
